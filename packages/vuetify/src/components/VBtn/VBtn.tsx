@@ -40,6 +40,10 @@ export default defineComponent({
       default: 'primary',
     },
     disabled: Boolean,
+    ripple: {
+      type: Boolean,
+      default: true,
+    },
     ...makeBorderProps(),
     ...makeRoundedProps(),
     ...makeDensityProps(),
@@ -109,7 +113,7 @@ export default defineComponent({
         }
       </props.tag>,
       [useDirective<RippleDirectiveBinding>(Ripple, {
-        value: !props.disabled,
+        value: !props.disabled && props.ripple,
         modifiers: { center: !!props.icon },
       })]
     )

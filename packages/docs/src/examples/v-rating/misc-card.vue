@@ -34,7 +34,7 @@
 
       <v-spacer></v-spacer>
 
-      <span class="grey--text text--lighten-2 caption mr-2">
+      <span class="text-grey-lighten-2 text-caption mr-2">
         ({{ rating }})
       </span>
 

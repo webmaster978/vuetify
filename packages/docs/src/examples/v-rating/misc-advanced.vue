@@ -48,9 +48,9 @@
 
     <v-card-title class="align-start">
       <div>
-        <span class="headline">FORTNITE</span>
+        <span class="text-subtitle-1">FORTNITE</span>
 
-        <div class="grey--text font-weight-light">
+        <div class="text-grey font-weight-light">
           Video game
         </div>
       </div>
@@ -69,7 +69,7 @@
 
         <v-card>
           <v-card-title>
-            <span class="title font-weight-bold">Share</span>
+            <span class="text-subtitle-1 font-weight-bold">Share</span>
 
             <v-spacer></v-spacer>
 
@@ -127,7 +127,7 @@
     <v-divider></v-divider>
 
     <v-card-actions>
-      <span class="pl-2 text-grey-darken-2 font-weight-light caption">16,544 reviews</span>
+      <span class="pl-2 text-grey-darken-2 font-weight-light text-caption">16,544 reviews</span>
 
       <v-spacer></v-spacer>
 
@@ -146,7 +146,7 @@
       </v-rating>
     </v-card-actions>
 
-    <div class="pa-4 pt-0 caption">
+    <div class="pa-4 pt-0 text-caption">
       <em>Portions of the materials used are trademarks and/or copyrighted works of Epic Games, Inc. All rights reserved by Epic. This material is not official and is not endorsed by Epic.</em>
     </div>
   </v-card>

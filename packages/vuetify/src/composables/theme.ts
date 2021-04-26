@@ -99,13 +99,15 @@ const defaultThemeOptions: ThemeOptions = {
       variables: {
         'border-color': '0, 0, 0',
         'border-opacity': 0.12,
+        'divider-color': '0, 0, 0',
+        'divider-opacity': 0.12,
       },
     },
     dark: {
       dark: true,
       colors: {
         background: '#121212',
-        surface: '#121212',
+        surface: '#333',
         primary: '#BB86FC',
         'primary-darken-1': '#3700B3',
         secondary: '#03DAC5',
@@ -118,6 +120,8 @@ const defaultThemeOptions: ThemeOptions = {
       variables: {
         'border-color': '255, 255, 255',
         'border-opacity': 0.12,
+        'divider-color': '255, 255, 255',
+        'divider-opacity': 0.12,
       },
     },
   },

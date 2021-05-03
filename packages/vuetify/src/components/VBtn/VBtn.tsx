@@ -36,7 +36,7 @@ export default defineComponent({
     block: Boolean,
 
     color: {
-      type: String,
+      type: [String, Boolean],
       default: 'primary',
     },
     disabled: Boolean,
